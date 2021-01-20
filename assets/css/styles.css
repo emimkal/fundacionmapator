@@ -1,0 +1,141 @@
+/* Estilos generales */
+
+.nav.navbar-nav {
+  font-family: 'Aclonica';
+}
+
+img {
+  width: 100%;
+  height: 200px;
+}
+
+.titulos {
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+.text-center {
+  background: #fff;
+  mix-blend-mode: multiply;
+  position: relative;
+}
+
+.text-center:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, red, yellow);
+  mix-blend-mode: screen;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.atribucion {
+  color: #000;
+  background-color: #fff;
+  font-family: 'Aclonica';
+}
+
+/* Inicio */
+
+.brands {
+  color: #313437;
+  background-color: #fff;
+}
+
+.brands a {
+  display: block;
+  text-align: center;
+  padding: 40px 0;
+}
+
+@media (max-width:767px) {
+  .brands a {
+    padding: 30px 0;
+  }
+}
+
+.brands a img {
+  display: inline-block;
+  margin: 10px 20px;
+  vertical-align: middle;
+}
+
+.cookies {
+  position: fixed;
+  bottom: 0px;
+}
+
+/* Nosotros */
+
+.contenedor-versiculo {
+  background: rgba(152,186,217,1);
+  background: -webkit-linear-gradient(-45deg, rgba(152,186,217,1) 0%, rgba(181,206,228,1) 34%, rgba(227,237,247,1) 85%, rgba(227,237,247,1) 100%);
+  background: linear-gradient(135deg, rgba(152,155,217,1) 0%, rgba(181,206,228,0.95) 51%, rgba(152,155,217,0.9) 100%);
+}
+
+/* Contacto */
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* Mensaje envío */
+
+.form_wrap{
+    width: 80%;
+    height: 480px;
+    margin: 30px auto;
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Mensaje exitoso*/
+
+.mensaje-exito{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje-exito h1{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mensaje-exito a{
+    display: block;
+    padding: 10px 30px;
+    background: #dad3eb;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.mensaje-exito a:hover{
+    background: #3371B6;
+}
